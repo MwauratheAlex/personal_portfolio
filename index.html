@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio Website - mwaura mbugua</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/1d7d490542.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <h1 class="logo">Mbugua</h1>
+        <ul id="sidemenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Sofware developer</p>
+        <h1>
+          Hello, I'm <span>Mbugua</span><br />
+          Mwaura from Kenya
+        </h1>
+      </div>
+    </div>
+  </header>
+
+  <!-------about section --------->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1"></div>
+        <div class="about-col-2">
+          <h1 class="subtitle">About me</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make a type specimen book. It has
+            survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was
+            popularised in the 1960s with the release of Letraset sheets
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+              <li><span>Web Developement</span><br>Designing Web/App interfaces</li>
+              <li><span>App Developement</span><br>Designing Web/App interfaces</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2022 - Current</span><br>Robotic Engineer at JKUAT Robotics Dojo</li>
+              <li><span>2017 - 2022</span><br>Automation and Embedded Systems at Psalmchmart Ltd</li>
+              <li><span>2013 - 2016</span><br>Electrical and Electronic Engineer at KPLC</li>
+              <li><span>2013 - 2016</span><br>Electrical and Electronic Engineer at KTDA</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2022 - Current</span><br>Software Engineering at ALX</li>
+              <li><span>2017 - 2022</span><br>Electrical and Electoronic Engineering at JKUAT</li>
+              <li><span>2013 - 2016</span><br>Highschool Diploma</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!----Services------>
+  <section id="services">
+    <div class="container">
+      <h1 class="subtitle">My Services</h1>
+      <div class="service-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop"></i>
+          <h2>UI/UX Design</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h2>App Design</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------portfolio------>
+  <section id="portfolio">
+    <div class="container">
+      <h1 class="subtitle">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/nft-showcase.png">
+          <div class="layer">
+            <h3>NFT Marketplace Showcase</h3>
+            <p>
+              A landing page for the NFT Marketplace Application.
+              The page is hosted on IPFS, a completely decentralized
+              peer-to-peer protocol.
+            </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/nft-marketplace.png">
+          <div class="layer">
+            <h3>NFT Marketplace App</h3>
+            <p>
+              A landing page for the NFT Marketplace Application.
+              The page is hosted on IPFS, a completely decentralized
+              peer-to-peer protocol.
+            </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/landing-page.png">
+          <div class="layer">
+            <h3>Startup Landing Page</h3>
+            <p>
+              A landing page for the NFT Marketplace Application.
+              The page is hosted on IPFS, a completely decentralized
+              peer-to-peer protocol.
+            </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/movie-land.png">
+          <div class="layer">
+            <h3>Movieland</h3>
+            <p>
+              A landing page for the NFT Marketplace Application.
+              The page is hosted on IPFS, a completely decentralized
+              peer-to-peer protocol.
+            </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/gpt-3.png">
+          <div class="layer">
+            <h3>GPT 3</h3>
+            <p>
+              A landing page for the NFT Marketplace Application.
+              The page is hosted on IPFS, a completely decentralized
+              peer-to-peer protocol.
+            </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/justgymit.png">
+          <div class="layer">
+            <h3>Just Gym It</h3>
+            <p>
+              A landing page for the NFT Marketplace Application.
+              The page is hosted on IPFS, a completely decentralized
+              peer-to-peer protocol.
+            </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+  </section>
+
+  <!----------contact--------->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="subtitle">Let's talk</h1>
+          <p><i class="fa-regular fa-paper-plane"></i>mwaurambugua12@gmail.com</p>
+          <p><i class="fa-solid fa-blender-phone"></i>+254 713 958 070</p>
+          <div class="social-icons">
+            <a href="http://x.com"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="http://linkedin.com"><i class="fa-brands fa-linkedin"></i></i></a>
+            <a href="http://github.com"><i class="fa-brands fa-github"></i></i></a>
+          </div>
+          <a href="images/justgymit.png" class="btn btn-2" download>Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn-2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="copyright">
+    <p>Copyright &#169; Mbugua. Made with <i class="fa-solid fa-heart"></i></p>
+  </footer>
+
+  <script>
+    const tablinks = document.getElementsByClassName("tab-links")
+    const tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link")
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab")
+      }
+      event.currentTarget.classList.add("active-link")
+      document.getElementById(tabname).classList.add("active-tab")
+    }
+  </script>
+
+  <script>
+    const sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+      sidemenu.style.right = "0"
+    }
+
+    function closemenu() {
+      sidemenu.style.right = "-200px"
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxNhcHCtarNOEDtg_z9xxhWjDlnQxLZltNrf-XqhNLQ7GY7wza8wGe3CDnrdLpj4J3a/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "message sent"
+          setTimeout(() => {
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+
+</html>
