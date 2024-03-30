@@ -1,6 +1,6 @@
 const projects = [
   {
-    img: "public/nft-showcase.webp",
+    img: "/nft-showcase.webp",
     heading: "NFT Marketplace Showcase",
     description: `A landing page for the NFT Marketplace Application.
               The page is hosted on IPFS, a completely decentralized
@@ -9,7 +9,7 @@ const projects = [
     github: "https://github.com/MwauratheAlex/NFTMarketplaceShowcase.git",
   },
   {
-    img: "public/nft-marketplace.webp",
+    img: "/nft-marketplace.webp",
     heading: "NFT Marketplace App",
     description: `A modern cross-platform React Native Application 
             with a Sleek and Modern UI. Users can see and search 
@@ -18,7 +18,7 @@ const projects = [
     github: "https://github.com/MwauratheAlex/NFTMarketplace.git",
   },
   {
-    img: "public/landing-page.webp",
+    img: "/landing-page.webp",
     heading: "Startup Landing Page",
     description: `A fully functional, mobile responsive, beautiful, 
           single page website built using Next Js. Using this landing page 
@@ -27,7 +27,7 @@ const projects = [
     github: "https://github.com/MwauratheAlex/nextjs_landing_page.git",
   },
   {
-    img: "public/movie-land.webp",
+    img: "/movie-land.webp",
     heading: "Movieland",
     description: `A fully mobile-responsive React JS Application that displays 
             movies and allows users to search for any movie on the internet.`,
@@ -35,7 +35,7 @@ const projects = [
     github: "https://github.com/MwauratheAlex/movieLand-react.git",
   },
   {
-    img: "public/gpt-3.webp",
+    img: "/gpt-3.webp",
     heading: "GPT-3",
     description: `A fully responsive GPT-3 website/landing page with 
           modern UI/UX following a Figma design built with React.`,
@@ -43,7 +43,7 @@ const projects = [
     github: "https://github.com/MwauratheAlex/gpt3.git",
   },
   {
-    img: "public/justgymit.webp",
+    img: "/justgymit.webp",
     heading: "Just Gym It",
     description: `A modern React 18 Fitness Exercises App with the 
         functionality to choose exercise categories and specific muscle 
