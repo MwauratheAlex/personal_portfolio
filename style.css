@@ -495,9 +495,6 @@ nav .fa-solid {
 
 /* small screen */
 @media only screen and (max-width: 600px) {
-  .container {
-    padding: 10px 5%;
-  }
 
   .hero iframe {
     top: 0;
@@ -528,7 +525,7 @@ nav .fa-solid {
 
 
   .vertical-social a {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .header-text {
