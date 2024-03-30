@@ -58,7 +58,7 @@ function renderProjects() {
   const worklistEl = document.getElementById("project-list")
   const workHtml = projects.map(project => `
         <div class="work">
-          <img src=${project.img} loading="lazy" alt=${project.heading + " image"}>
+          <img src=${project.img} loading="lazy" alt="${project.heading}">
           <div class="layer">
             <h3>${project.heading}</h3>
             <p>${project.description}</p>
