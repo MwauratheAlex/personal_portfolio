@@ -35,7 +35,7 @@ header {
 }
 
 .container {
-  padding: 10px 13%;
+  padding: 10px 10%;
 }
 
 nav {
@@ -49,7 +49,7 @@ nav {
 .logo {
   width: 120px;
   position: absolute;
-  left: -4em;
+  left: 7%;
 }
 
 nav ul li {
@@ -95,7 +95,7 @@ nav ul li a:hover::after {
   justify-content: space-between;
   height: 100%;
   padding: 20% 8%;
-  padding-top: 23%;
+  padding-top: 21%;
 }
 
 .hero-btn {
@@ -424,7 +424,7 @@ nav ul li a:hover::after {
 .vertical-social {
   position: fixed;
   top: 30%;
-  left: 10em;
+  left: 7%;
   display: flex;
   flex-direction: column;
   gap: 18px;
@@ -495,9 +495,53 @@ nav .fa-solid {
 
 /* small screen */
 @media only screen and (max-width: 600px) {
-  .header-text {
-    margin-top: 100%;
+  .container {
+    padding: 10px 5%;
+  }
+
+  .hero iframe {
+    top: 0;
+    left: 10%;
+    width: 80%;
+  }
+
+  .hero-btn {
+    flex-direction: column;
     font-size: 16px;
+    padding: 0;
+    margin-top: 0px;
+  }
+
+  .hero-btn .btn {
+    padding: .3em 1em;
+    width: 100%;
+  }
+
+  .hero-btn .btn-2 {
+    margin-right: 0em;
+    margin-bottom: 1em;
+  }
+
+  .vertical-social {
+    left: 2%;
+  }
+
+
+  .vertical-social a {
+    font-size: 12px;
+  }
+
+  .header-text {
+    margin-top: 80%;
+    text-align: center;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-text p {
+    font-weight: 600;
+    font-size: 18px;
   }
 
   .header-text h1 {
@@ -539,6 +583,7 @@ nav .fa-solid {
 
   .logo {
     width: 90px;
+    left: 5%;
   }
 
   .about-col-1,
