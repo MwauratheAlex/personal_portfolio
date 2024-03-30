@@ -1,6 +1,6 @@
 :root {
   /* eg. submit button */
-  --primary-color: #EB5E28;
+  --primary-color: #da0037;
   /* eg. contact form bg */
   --secondary-color: #262626;
   --dark-orange: #bd491c;
@@ -35,18 +35,21 @@ header {
 }
 
 .container {
-  padding: 10px 10%;
+  padding: 10px 13%;
 }
 
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: end;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .logo {
   width: 120px;
+  position: absolute;
+  left: -4em;
 }
 
 nav ul li {
@@ -58,7 +61,7 @@ nav ul li {
 nav ul li a {
   color: var(--white-color);
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   position: relative;
   font-family: var(--secondary-font);
 }
@@ -79,19 +82,66 @@ nav ul li a:hover::after {
 }
 
 .header-text {
-  margin-top: 20%;
   font-size: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  padding: 20% 8%;
+  padding-top: 23%;
+}
+
+.hero-btn {
+  display: flex;
+  font-size: 18px;
+  padding: 0;
+  margin-top: 25px;
+}
+
+.hero-btn .btn {
+  margin: 0;
+  padding: 0;
+  padding: .6em 1.2em;
+}
+
+.hero-btn .btn-2 {
+  margin-right: 2em;
+}
+
+.hero iframe {
+  position: absolute;
+  right: 8%;
+  top: 30%;
+  border: none;
+  width: 50%;
+  height: 50%;
 }
 
 .header-text p {
-  font-family: var(--secondary-font);
+  font-family: var(--primary-font);
+  color: #ced4da;
+  letter-spacing: .15em;
+  font-weight: 600;
+  font-size: 25px;
 }
 
-
 .header-text h1 {
-  font-size: 60px;
-  margin-top: 20px;
   font-family: var(--secondary-font);
+  font-size: 60px;
+}
+
+.header-text .welcome {
+  font-family: var(--primary-font);
+  color: #adb5bd;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .header-text h1 span {
@@ -299,6 +349,10 @@ nav ul li a:hover::after {
   text-align: center;
 }
 
+.layer a .fa-github {
+  color: black;
+}
+
 .work:hover img {
   transform: scale(1.1);
 }
@@ -343,6 +397,10 @@ nav ul li a:hover::after {
   font-size: 25px;
 }
 
+.contact-left .subtitle {
+  margin-bottom: 1.4em;
+}
+
 .social-icons {
   margin-top: 30px;
 }
@@ -360,6 +418,28 @@ nav ul li a:hover::after {
 .social-icons a:hover {
   color: var(--primary-color);
   transform: translateY(-5px);
+}
+
+
+.vertical-social {
+  position: fixed;
+  top: 30%;
+  left: 10em;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+}
+
+.vertical-social .top-line {
+  height: 6em;
+  border: 1px solid #220901;
+  width: 1px;
+}
+
+.vertical-social a {
+  font-size: 20px;
+  margin-right: 0;
 }
 
 .btn-2 {
@@ -398,6 +478,10 @@ footer {
   background: var(--secondary-color);
   font-weight: 300;
   margin-top: 20px;
+}
+
+footer p {
+  font-family: var(--secondary-font);
 }
 
 footer i {

@@ -69,7 +69,6 @@ function renderProjects() {
           </div>
         </div>
   `).join(' ')
-  console.log(workHtml)
   worklistEl.innerHTML = workHtml
 }
 

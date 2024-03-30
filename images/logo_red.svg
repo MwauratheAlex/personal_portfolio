@@ -3,7 +3,7 @@
    width="64.408997"
    height="37"
    viewBox="0 0 64.408997 37"
-   fill="none"
+   fill="red"
    version="1.1"
    id="svg175"
    xml:space="preserve"
@@ -37,7 +37,7 @@
      id="defs173" /><g
      aria-label="mbumwa"
      id="text492"
-     style="font-size:26.6667px;font-family:Akashi;-inkscape-font-specification:Akashi;fill:#DA0037"><g
+     style="font-size:26.6667px;font-family:Akashi;-inkscape-font-specification:Akashi;fill:#ff6600"><g
        aria-label="mbumwa"
        id="text329"
        style="font-weight:900;font-size:32px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Heavy'"><path
@@ -61,7 +61,7 @@
          id="path402" /></g></g><g
      aria-label=".com"
      id="text933"
-     style="font-weight:bold;font-size:8px;font-family:Themysion;-inkscape-font-specification:'Themysion Bold';fill:#ff004f"><path
+     style="font-weight:bold;font-size:8px;font-family:Themysion;-inkscape-font-specification:'Themysion Bold';fill:#d45500"><path
        d="m 26.224333,28.727987 q 0,0.101563 -0.04687,0.1875 -0.04687,0.07813 -0.125,0.132813 -0.07031,0.05469 -0.164063,0.08594 -0.08594,0.03125 -0.179687,0.03125 -0.117188,0 -0.257813,-0.04687 -0.132812,-0.03906 -0.25,-0.117187 -0.109375,-0.07813 -0.1875,-0.179688 -0.07813,-0.109375 -0.07813,-0.242187 0,-0.210938 0.179688,-0.3125 0.179687,-0.109375 0.367187,-0.109375 0.117188,0 0.242188,0.03906 0.132812,0.03906 0.242187,0.117188 0.117188,0.07031 0.1875,0.179687 0.07031,0.101563 0.07031,0.234375 z"
        style="font-family:Chewy;-inkscape-font-specification:'Chewy Bold'"
        id="path1117" /><path
