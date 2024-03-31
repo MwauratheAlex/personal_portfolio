@@ -11,6 +11,7 @@
   --secondary-font: 'Edu NSW ACT Foundation', cursive;
 }
 
+
 * {
   margin: 0;
   padding: 0;
@@ -402,27 +403,26 @@ nav ul li a:hover::after {
   margin-bottom: 1.4em;
 }
 
-.social-icons {
-  margin-top: 30px;
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--gray-color);
+  cursor: pointer;
 }
 
-.social-icons a {
-  text-decoration: none;
-  font-size: 30px;
-  display: inline-block;
-  margin-right: 15px;
-  color: var(--gray-color);
-  display: inline-block;
+
+.social-icons svg {
   transition: transform 0.5s;
 }
 
-.social-icons a:hover {
-  color: var(--primary-color);
+.social-icons svg:hover {
   transform: translateY(-5px);
+  fill: var(--primary-color);
 }
 
 
 .vertical-social {
+  margin-top: 30px;
   position: fixed;
   top: 30%;
   left: 7%;
@@ -489,7 +489,12 @@ footer i {
   color: var(--primary-color);
 }
 
+
 nav .fa-solid {
+  display: none;
+}
+
+av .fa-solid {
   display: none;
 }
 
