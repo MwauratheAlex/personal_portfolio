@@ -391,12 +391,22 @@ nav ul li a:hover::after {
 
 .contact-left p {
   margin-top: 30px;
+  display: flex;
 }
 
 .contact-left p i {
   color: var(--primary-color);
   margin-right: 15px;
   font-size: 25px;
+}
+
+.contact-left svg {
+  fill: var(--primary-color);
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .contact-left .subtitle {
