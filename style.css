@@ -504,7 +504,7 @@ av .fa-solid {
 /* small screen */
 @media only screen and (max-width: 600px) {
 
-  .hero iframe {
+  .hero dotlottie-player {
     top: 0;
     left: 10%;
     width: 80%;
