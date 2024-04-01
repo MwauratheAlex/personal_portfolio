@@ -1,3 +1,5 @@
+import '@dotlottie/player-component';
+
 const projects = [
   {
     img: "/nft-showcase.webp",
