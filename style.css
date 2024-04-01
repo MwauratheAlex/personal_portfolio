@@ -115,7 +115,8 @@ nav ul li a:hover::after {
   margin-right: 2em;
 }
 
-.hero dotlottie-player {
+#lottie-animation,
+#lottie-poster {
   position: absolute;
   right: 8%;
   top: 30%;
@@ -123,6 +124,11 @@ nav ul li a:hover::after {
   width: 50%;
   height: 50%;
 }
+
+#lottie-animation {
+  display: none;
+}
+
 
 .header-text p {
   font-family: var(--primary-font);
@@ -504,7 +510,7 @@ av .fa-solid {
 /* small screen */
 @media only screen and (max-width: 600px) {
 
-  .hero dotlottie-player {
+  .hero #lottie-animation {
     top: 0;
     left: 10%;
     width: 80%;

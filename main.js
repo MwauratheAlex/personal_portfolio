@@ -1,5 +1,23 @@
 import '@dotlottie/player-component';
 
+document.addEventListener('DOMContentLoaded', (event) => {
+  const lottiePlayer = document.getElementById('lottie-animation');
+  const posterImage = document.getElementById('lottie-poster');
+
+  // Preload Lottie animation
+  lottiePlayer.addEventListener('load', () => {
+    // Hide the poster image and show the Lottie player once the animation is ready
+    posterImage.style.display = 'none';
+    lottiePlayer.style.display = 'block';
+  });
+
+  // Optional: Fallback in case the 'load' event does not trigger as expected
+  setTimeout(() => {
+    posterImage.style.display = 'none';
+    lottiePlayer.style.display = 'block';
+  }, 5000); // Adjust timeout as necessary
+});
+
 const projects = [
   {
     img: "/nft-showcase.webp",
