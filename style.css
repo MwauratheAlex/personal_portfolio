@@ -115,13 +115,13 @@ nav ul li a:hover::after {
   margin-right: 2em;
 }
 
-.hero iframe {
+.hero dotlottie-player {
   position: absolute;
-  right: -40%;
+  right: 8%;
   top: 30%;
   border: none;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
 }
 
 .header-text p {
