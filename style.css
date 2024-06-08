@@ -421,6 +421,13 @@ nav ul li a:hover::after {
   cursor: pointer;
 }
 
+.times-icon {
+  width: 28px;
+  height: 28px;
+  fill: var(--gray-color);
+  cursor: pointer;
+}
+
 
 .social-icons svg {
   transition: transform 0.5s;
@@ -561,8 +568,8 @@ av .fa-solid {
   }
 
   nav .fa-solid {
+    color: white;
     display: block;
-    font-size: 25px;
   }
 
   nav ul {
