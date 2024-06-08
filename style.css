@@ -47,6 +47,12 @@ nav {
   z-index: 2;
 }
 
+.bars {
+  position: absolute;
+  right: 5%;
+  margin-top: 10px;
+}
+
 .logo {
   width: 120px;
   position: absolute;
@@ -508,6 +514,8 @@ footer i {
 nav .fa-solid {
   display: none;
 }
+
+
 
 av .fa-solid {
   display: none;
